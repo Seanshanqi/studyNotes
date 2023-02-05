@@ -13,16 +13,22 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\Array">
+      <UniqueIdentifier>{2a5bb39f-757a-4efe-82cf-b6b5a93e41fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\List">
+      <UniqueIdentifier>{57c16e9b-0ddb-4814-8cd2-ae217e0a0148}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="studyNotes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="binarySearch.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Array</Filter>
     </ClCompile>
     <ClCompile Include="reverseList.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
