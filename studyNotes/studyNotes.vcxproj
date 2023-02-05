@@ -140,7 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binarySearch.cpp" />
+    <ClCompile Include="reverseList.cpp" />
     <ClCompile Include="studyNotes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
