@@ -30,9 +30,18 @@
     <ClCompile Include="reverseList.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="removeElement.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="sortedSquares.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Class.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
