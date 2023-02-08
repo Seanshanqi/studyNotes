@@ -36,6 +36,9 @@
     <ClCompile Include="sortedSquares.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="minSubArrayLen.cpp">
+      <Filter>源文件\Array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">

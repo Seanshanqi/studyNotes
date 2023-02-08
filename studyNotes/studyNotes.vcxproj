@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binarySearch.cpp" />
+    <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="removeElement.cpp" />
     <ClCompile Include="reverseList.cpp" />
     <ClCompile Include="sortedSquares.cpp" />
