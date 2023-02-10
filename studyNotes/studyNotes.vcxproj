@@ -143,6 +143,7 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="removeElement.cpp" />
+    <ClCompile Include="removeElements.cpp" />
     <ClCompile Include="reverseList.cpp" />
     <ClCompile Include="sortedSquares.cpp" />
     <ClCompile Include="studyNotes.cpp" />

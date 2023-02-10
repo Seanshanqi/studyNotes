@@ -42,6 +42,9 @@
     <ClCompile Include="generateMatrix.cpp">
       <Filter>源文件\Array</Filter>
     </ClCompile>
+    <ClCompile Include="removeElements.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
