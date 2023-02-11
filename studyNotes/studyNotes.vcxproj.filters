@@ -45,6 +45,9 @@
     <ClCompile Include="removeElements.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="MyLinkedList .cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
