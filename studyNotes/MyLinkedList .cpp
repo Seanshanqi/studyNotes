@@ -3,6 +3,8 @@ using namespace std;
 
 class MyLinkedList {
 public:
+
+
     // 定义链表节点结构体
     struct LinkedNode {
         int val;

@@ -148,6 +148,7 @@
     <ClCompile Include="reverseList.cpp" />
     <ClCompile Include="sortedSquares.cpp" />
     <ClCompile Include="studyNotes.cpp" />
+    <ClCompile Include="swapPairs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class.h" />
