@@ -51,6 +51,9 @@
     <ClCompile Include="swapPairs.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="removeNthFromEnd.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
