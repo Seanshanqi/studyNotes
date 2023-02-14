@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="binarySearch.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
+    <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="MyLinkedList .cpp" />
     <ClCompile Include="removeElement.cpp" />
