@@ -57,6 +57,9 @@
     <ClCompile Include="getIntersectionNode.cpp">
       <Filter>源文件\List</Filter>
     </ClCompile>
+    <ClCompile Include="detectCycle.cpp">
+      <Filter>源文件\List</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
