@@ -19,6 +19,9 @@
     <Filter Include="源文件\List">
       <UniqueIdentifier>{57c16e9b-0ddb-4814-8cd2-ae217e0a0148}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\HashTable">
+      <UniqueIdentifier>{d76c9709-99c8-4832-a2be-2d3bd6ae7c78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="studyNotes.cpp">
@@ -59,6 +62,9 @@
     </ClCompile>
     <ClCompile Include="detectCycle.cpp">
       <Filter>源文件\List</Filter>
+    </ClCompile>
+    <ClCompile Include="HashTable\isAnagram.cpp">
+      <Filter>源文件\HashTable</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
