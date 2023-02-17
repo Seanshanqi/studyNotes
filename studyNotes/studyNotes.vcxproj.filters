@@ -66,6 +66,9 @@
     <ClCompile Include="HashTable\isAnagram.cpp">
       <Filter>源文件\HashTable</Filter>
     </ClCompile>
+    <ClCompile Include="intersection.cpp">
+      <Filter>源文件\HashTable</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">
