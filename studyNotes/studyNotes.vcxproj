@@ -145,6 +145,7 @@
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="HashTable\isAnagram.cpp" />
     <ClCompile Include="intersection.cpp" />
+    <ClCompile Include="isHappy.cpp" />
     <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="MyLinkedList .cpp" />
     <ClCompile Include="removeElement.cpp" />
