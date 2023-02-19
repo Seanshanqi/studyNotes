@@ -144,8 +144,8 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="HashTable\isAnagram.cpp" />
+    <ClCompile Include="HashTable\twoSum.cpp" />
     <ClCompile Include="intersection.cpp" />
-    <ClCompile Include="isHappy.cpp" />
     <ClCompile Include="minSubArrayLen.cpp" />
     <ClCompile Include="MyLinkedList .cpp" />
     <ClCompile Include="removeElement.cpp" />
@@ -158,6 +158,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class.h" />
+    <ClInclude Include="HashTable\common.h" />
     <ClInclude Include="List.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

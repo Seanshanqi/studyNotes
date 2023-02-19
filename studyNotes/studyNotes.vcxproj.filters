@@ -69,8 +69,8 @@
     <ClCompile Include="intersection.cpp">
       <Filter>源文件\HashTable</Filter>
     </ClCompile>
-    <ClCompile Include="isHappy.cpp">
-      <Filter>源文件\HashTable</Filter>
+    <ClCompile Include="HashTable\twoSum.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -78,6 +78,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Class.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTable\common.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
