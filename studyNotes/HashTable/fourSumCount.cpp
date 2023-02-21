@@ -1,4 +1,6 @@
-#include <common.h>
+using namespace std;
+#include <vector>
+#include <unordered_map>
 class Solution {
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {

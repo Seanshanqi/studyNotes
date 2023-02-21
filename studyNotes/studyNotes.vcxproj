@@ -143,6 +143,7 @@
     <ClCompile Include="detectCycle.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
+    <ClCompile Include="HashTable\canConstruct.cpp" />
     <ClCompile Include="HashTable\isAnagram.cpp" />
     <ClCompile Include="HashTable\twoSum.cpp" />
     <ClCompile Include="intersection.cpp" />
