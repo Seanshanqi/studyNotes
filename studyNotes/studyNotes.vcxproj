@@ -144,6 +144,7 @@
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
     <ClCompile Include="HashTable\canConstruct.cpp" />
+    <ClCompile Include="HashTable\fourSum.cpp" />
     <ClCompile Include="HashTable\isAnagram.cpp" />
     <ClCompile Include="HashTable\threeSum.cpp" />
     <ClCompile Include="HashTable\twoSum.cpp" />
