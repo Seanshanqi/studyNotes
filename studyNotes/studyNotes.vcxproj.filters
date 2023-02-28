@@ -96,5 +96,6 @@
   <ItemGroup>
     <None Include="stackandqueue\用队列实现栈.md" />
     <None Include="stackandqueue\有效的括号.md" />
+    <None Include="stackandqueue\删除字符串中的所有相邻重复项.md" />
   </ItemGroup>
 </Project>
