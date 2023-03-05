@@ -1,58 +1,60 @@
-# [347. ǰ K ����ƵԪ��](https://leetcode.cn/problems/top-k-frequent-elements/description/)
-����һ���������� nums ��һ������ k �����㷵�����г���Ƶ��ǰ k �ߵ�Ԫ�ء�����԰� ����˳�� ���ش𰸡�
-### ʾ��
-ʾ�� 1:
+# [347. 前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/description/)
+给你一个整数数组 nums 和一个整数 k ，请你返回其中出现频率前 k 高的元素。你可以按 任意顺序 返回答案。
+### 示例
+示例 1:
 
-����: nums = [1,1,1,2,2,3], k = 2  
-���: [1,2]  
+输入: nums = [1,1,1,2,2,3], k = 2  
+输出: [1,2]  
 
-ʾ�� 2:  
-����: nums = [1], k = 1  
-���: [1]  
-## ˼·��
-�����Ŀ��Ҫ�漰�������������ݣ�
+示例 2:  
+输入: nums = [1], k = 1  
+输出: [1]  
+## 思路：
+这道题目主要涉及到如下三块内容：
 
-Ҫͳ��Ԫ�س���Ƶ��
-��Ƶ������
-�ҳ�ǰK����ƵԪ��
-����ͳ��Ԫ�س��ֵ�Ƶ�ʣ���һ����������ʹ��map������ͳ�ơ�
+要统计元素出现频率
+对频率排序
+找出前K个高频元素
+首先统计元素出现的频率，这一类的问题可以使用map来进行统计。
 
-Ȼ���Ƕ�Ƶ�ʽ��������������ǿ���ʹ��һ�� �����������������ȼ����С�
+然后是对频率进行排序，这里我们可以使用一种 容器适配器就是优先级队列。
 
-ʲô�����ȼ������أ�
+什么是优先级队列呢？
 
-��ʵ����һ�����Ŷ������µĶѣ���Ϊ���ȼ����ж���ӿ�ֻ�ǴӶ�ͷȡԪ�أ��Ӷ�β����Ԫ�أ���������ȡԪ�صķ�ʽ������������һ�����С�
+其实就是一个披着队列外衣的堆，因为优先级队列对外接口只是从队头取元素，从队尾添加元素，再无其他取元素的方式，看起来就是一个队列。
 
-�������ȼ������ڲ�Ԫ�����Զ�����Ԫ�ص�Ȩֵ���С���ô��������������е��أ�
+而且优先级队列内部元素是自动依照元素的权值排列。那么它是如何有序排列的呢？
 
-ȱʡ�����priority_queue����max-heap���󶥶ѣ���ɶ�Ԫ�ص���������󶥶�����vectorΪ������ʽ��complete binary tree����ȫ����������
+缺省情况下priority_queue利用max-heap（大顶堆）完成对元素的排序，这个大顶堆是以vector为表现形式的complete binary tree（完全二叉树）。
 
-ʲô�Ƕ��أ�
+什么是堆呢？
 
-����һ����ȫ������������ÿ������ֵ����С�ڣ��򲻴��ڣ������Һ��ӵ�ֵ�� ������׽���Ǵ��ڵ������Һ��Ӿ��Ǵ󶥶ѣ�С�ڵ������Һ��Ӿ���С���ѡ�
+堆是一棵完全二叉树，树中每个结点的值都不小于（或不大于）其左右孩子的值。 如果父亲结点是大于等于左右孩子就是大顶堆，小于等于左右孩子就是小顶堆。
 
-���Դ�Ҿ���˵�Ĵ󶥶ѣ���ͷ�����Ԫ�أ���С���ѣ���ͷ����СԪ�أ�����������Լ�ʵ�ֵĻ�����ֱ����priority_queue�����ȼ����У��Ϳ����ˣ��ײ�ʵ�ֶ���һ���ģ���С�����ž���С���ѣ��Ӵ�С�ž��Ǵ󶥶ѡ�
+所以大家经常说的大顶堆（堆头是最大元素），小顶堆（堆头是最小元素），如果懒得自己实现的话，就直接用priority_queue（优先级队列）就可以了，底层实现都是一样的，从小到大排就是小顶堆，从大到小排就是大顶堆。
 
-�������Ǿ�Ҫʹ�����ȼ��������Բ���Ƶ�ʽ�������
+本题我们就要使用优先级队列来对部分频率进行排序。
 
-Ϊʲô���ÿ����أ� ʹ�ÿ���Ҫ��mapת��Ϊvector�Ľṹ��Ȼ������������������ �����ֳ����£�������ʵֻ��Ҫά��k����������оͿ����ˣ�����ʹ�����ȼ����������ŵġ�
+为什么不用快排呢， 使用快排要将map转换为vector的结构，然后对整个数组进行排序， 而这种场景下，我们其实只需要维护k个有序的序列就可以了，所以使用优先级队列是最优的。
 
-��ʱҪ˼��һ�£���ʹ��С�����أ����Ǵ󶥶ѣ�
+此时要思考一下，是使用小顶堆呢，还是大顶堆？
 
-�е�ͬѧһ�룬��ĿҪ��ǰ K ����ƵԪ�أ���ô�����ô󶥶Ѱ���
+有的同学一想，题目要求前 K 个高频元素，那么果断用大顶堆啊。
 
-��ô�������ˣ�����һ����СΪk�Ĵ󶥶ѣ���ÿ���ƶ����´󶥶ѵ�ʱ��ÿ�ε�����������Ԫ�ص���ȥ�ˣ���ô��ô��������ǰK����ƵԪ���ء�
+那么问题来了，定义一个大小为k的大顶堆，在每次移动更新大顶堆的时候，每次弹出都把最大的元素弹出去了，那么怎么保留下来前K个高频元素呢。
 
-����ʹ�ô󶥶Ѿ�Ҫ������Ԫ�ض������������ܲ���ֻ����k��Ԫ���أ�
+而且使用大顶堆就要把所有元素都进行排序，那能不能只排序k个元素呢？
 
-��������Ҫ��С���ѣ���ΪҪͳ�����ǰk��Ԫ�أ�ֻ��С����ÿ�ν���С��Ԫ�ص��������С��������۵Ĳ���ǰk�����Ԫ�ء�
+所以我们要用小顶堆，因为要统计最大前k个元素，只有小顶堆每次将最小的元素弹出，最后小顶堆里积累的才是前k个最大元素。
+
+对priority_queue需要熟悉
 
 ```c
-/ ʱ�临�Ӷȣ�O(nlogk)
-// �ռ临�Ӷȣ�O(n)
+/ 时间复杂度：O(nlogk)
+// 空间复杂度：O(n)
 class Solution {
 public:
-    // С����
+    // 小顶堆
     class mycomparison {
     public:
         bool operator()(const pair<int, int>& lhs, const pair<int, int>& rhs) {
@@ -60,25 +62,25 @@ public:
         }
     };
     vector<int> topKFrequent(vector<int>& nums, int k) {
-        // Ҫͳ��Ԫ�س���Ƶ��
-        unordered_map<int, int> map; // map<nums[i],��Ӧ���ֵĴ���>
+        // 要统计元素出现频率
+        unordered_map<int, int> map; // map<nums[i],对应出现的次数>
         for (int i = 0; i < nums.size(); i++) {
             map[nums[i]]++;
         }
 
-        // ��Ƶ������
-        // ����һ��С���ѣ���СΪk
+        // 对频率排序
+        // 定义一个小顶堆，大小为k
         priority_queue<pair<int, int>, vector<pair<int, int>>, mycomparison> pri_que;
 
-        // �ù̶���СΪk��С���ѣ�ɨ������Ƶ�ʵ���ֵ
+        // 用固定大小为k的小顶堆，扫面所有频率的数值
         for (unordered_map<int, int>::iterator it = map.begin(); it != map.end(); it++) {
             pri_que.push(*it);
-            if (pri_que.size() > k) { // ����ѵĴ�С������K������е�������֤�ѵĴ�СһֱΪk
+            if (pri_que.size() > k) { // 如果堆的大小大于了K，则队列弹出，保证堆的大小一直为k
                 pri_que.pop();
             }
         }
 
-        // �ҳ�ǰK����ƵԪ�أ���ΪС�����ȵ���������С�ģ����Ե��������������
+        // 找出前K个高频元素，因为小顶堆先弹出的是最小的，所以倒序来输出到数组
         vector<int> result(k);
         for (int i = k - 1; i >= 0; i--) {
             result[i] = pri_que.top().first;
