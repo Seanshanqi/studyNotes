@@ -171,6 +171,7 @@
     <None Include="stackandqueue\滑动窗口最大值.md" />
     <None Include="stackandqueue\用队列实现栈.md" />
     <None Include="stackandqueue\逆波兰表达式求值.md" />
+    <None Include="string\reverseStr.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
