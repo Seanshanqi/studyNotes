@@ -101,5 +101,6 @@
     <None Include="stackandqueue\滑动窗口最大值.md" />
     <None Include="stackandqueue\前k个高频元素.md" />
     <None Include="string\reverseStr.md" />
+    <None Include="string\reverse.md" />
   </ItemGroup>
 </Project>
