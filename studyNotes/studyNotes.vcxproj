@@ -173,6 +173,7 @@
     <None Include="stackandqueue\逆波兰表达式求值.md" />
     <None Include="string\reverse.md" />
     <None Include="string\reverseStr.md" />
+    <None Include="string\reverseWords.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
