@@ -174,6 +174,7 @@
     <None Include="string\reverse.md" />
     <None Include="string\reverseStr.md" />
     <None Include="string\reverseWords.md" />
+    <None Include="string\strStr.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
