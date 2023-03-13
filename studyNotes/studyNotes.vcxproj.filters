@@ -104,5 +104,6 @@
     <None Include="string\reverse.md" />
     <None Include="string\reverseWords.md" />
     <None Include="string\strStr.md" />
+    <None Include="binaryTree\Traversal.md" />
   </ItemGroup>
 </Project>
