@@ -165,6 +165,7 @@
     <ClInclude Include="List.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="binaryTree\levelOrder.md" />
     <None Include="binaryTree\Traversal.md" />
     <None Include="stackandqueue\删除字符串中的所有相邻重复项.md" />
     <None Include="stackandqueue\前k个高频元素.md" />
