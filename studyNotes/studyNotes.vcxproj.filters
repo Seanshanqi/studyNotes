@@ -106,5 +106,6 @@
     <None Include="string\strStr.md" />
     <None Include="binaryTree\Traversal.md" />
     <None Include="binaryTree\levelOrder.md" />
+    <None Include="binaryTree\invertTree.md" />
   </ItemGroup>
 </Project>
