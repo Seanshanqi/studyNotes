@@ -107,5 +107,6 @@
     <None Include="binaryTree\Traversal.md" />
     <None Include="binaryTree\levelOrder.md" />
     <None Include="binaryTree\invertTree.md" />
+    <None Include="binaryTree\isSymmetric.md" />
   </ItemGroup>
 </Project>
