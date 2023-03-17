@@ -108,5 +108,6 @@
     <None Include="binaryTree\levelOrder.md" />
     <None Include="binaryTree\invertTree.md" />
     <None Include="binaryTree\isSymmetric.md" />
+    <None Include="binaryTree\getdepth.md" />
   </ItemGroup>
 </Project>
