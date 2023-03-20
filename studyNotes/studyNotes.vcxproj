@@ -165,6 +165,7 @@
     <ClInclude Include="List.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="binaryTree\countNodes.md" />
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\invertTree.md" />
     <None Include="binaryTree\isSymmetric.md" />
