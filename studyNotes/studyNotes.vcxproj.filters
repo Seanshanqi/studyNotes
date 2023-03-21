@@ -110,5 +110,6 @@
     <None Include="binaryTree\isSymmetric.md" />
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\countNodes.md" />
+    <None Include="binaryTree\getHeight.md" />
   </ItemGroup>
 </Project>
