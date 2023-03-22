@@ -169,6 +169,7 @@
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\getHeight.md" />
     <None Include="binaryTree\invertTree.md" />
+    <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\isSymmetric.md" />
     <None Include="binaryTree\levelOrder.md" />
     <None Include="binaryTree\Traversal.md" />

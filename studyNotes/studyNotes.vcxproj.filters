@@ -111,5 +111,6 @@
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\countNodes.md" />
     <None Include="binaryTree\getHeight.md" />
+    <None Include="binaryTree\isBalanced.md" />
   </ItemGroup>
 </Project>
