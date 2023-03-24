@@ -113,5 +113,6 @@
     <None Include="binaryTree\getHeight.md" />
     <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\binaryTreePaths.md" />
+    <None Include="binaryTree\sumOfLeftLeaves.md" />
   </ItemGroup>
 </Project>
