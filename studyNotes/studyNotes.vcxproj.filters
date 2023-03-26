@@ -114,5 +114,6 @@
     <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\binaryTreePaths.md" />
     <None Include="binaryTree\sumOfLeftLeaves.md" />
+    <None Include="binaryTree\findBottomLeftValue.md" />
   </ItemGroup>
 </Project>
