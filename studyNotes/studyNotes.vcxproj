@@ -170,6 +170,7 @@
     <None Include="binaryTree\findBottomLeftValue.md" />
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\getHeight.md" />
+    <None Include="binaryTree\hasPathSum.md" />
     <None Include="binaryTree\invertTree.md" />
     <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\isSymmetric.md" />
