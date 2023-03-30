@@ -116,5 +116,6 @@
     <None Include="binaryTree\sumOfLeftLeaves.md" />
     <None Include="binaryTree\findBottomLeftValue.md" />
     <None Include="binaryTree\hasPathSum.md" />
+    <None Include="binaryTree\pathsum.md" />
   </ItemGroup>
 </Project>
