@@ -81,6 +81,9 @@
     <ClCompile Include="HashTable\fourSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binaryTree\buildRreewithPreandIn.md">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="List.h">

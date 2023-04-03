@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binarySearch.cpp" />
+    <ClCompile Include="binaryTree\buildRreewithPreandIn.md" />
     <ClCompile Include="detectCycle.cpp" />
     <ClCompile Include="generateMatrix.cpp" />
     <ClCompile Include="getIntersectionNode.cpp" />
