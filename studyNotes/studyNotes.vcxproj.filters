@@ -121,5 +121,6 @@
     <None Include="binaryTree\hasPathSum.md" />
     <None Include="binaryTree\pathsum.md" />
     <None Include="binaryTree\buildTree.md" />
+    <None Include="binaryTree\constructMaximumBinaryTree.md" />
   </ItemGroup>
 </Project>
