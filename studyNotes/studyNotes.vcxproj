@@ -178,6 +178,7 @@
     <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\isSymmetric.md" />
     <None Include="binaryTree\levelOrder.md" />
+    <None Include="binaryTree\mergeTrees.md" />
     <None Include="binaryTree\pathsum.md" />
     <None Include="binaryTree\sumOfLeftLeaves.md" />
     <None Include="binaryTree\Traversal.md" />
