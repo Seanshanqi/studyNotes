@@ -123,5 +123,6 @@
     <None Include="binaryTree\buildTree.md" />
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
     <None Include="binaryTree\mergeTrees.md" />
+    <None Include="binaryTree\searchBST.md" />
   </ItemGroup>
 </Project>

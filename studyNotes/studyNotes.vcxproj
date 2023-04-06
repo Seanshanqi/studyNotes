@@ -180,6 +180,7 @@
     <None Include="binaryTree\levelOrder.md" />
     <None Include="binaryTree\mergeTrees.md" />
     <None Include="binaryTree\pathsum.md" />
+    <None Include="binaryTree\searchBST.md" />
     <None Include="binaryTree\sumOfLeftLeaves.md" />
     <None Include="binaryTree\Traversal.md" />
     <None Include="stackandqueue\删除字符串中的所有相邻重复项.md" />
