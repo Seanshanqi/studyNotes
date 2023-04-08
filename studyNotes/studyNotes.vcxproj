@@ -173,10 +173,12 @@
     <None Include="binaryTree\findBottomLeftValue.md" />
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\getHeight.md" />
+    <None Include="binaryTree\getMinimumDifference.md" />
     <None Include="binaryTree\hasPathSum.md" />
     <None Include="binaryTree\invertTree.md" />
     <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\isSymmetric.md" />
+    <None Include="binaryTree\isValidBST.md" />
     <None Include="binaryTree\levelOrder.md" />
     <None Include="binaryTree\mergeTrees.md" />
     <None Include="binaryTree\pathsum.md" />

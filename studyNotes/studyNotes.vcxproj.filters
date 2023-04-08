@@ -124,5 +124,7 @@
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
     <None Include="binaryTree\mergeTrees.md" />
     <None Include="binaryTree\searchBST.md" />
+    <None Include="binaryTree\isValidBST.md" />
+    <None Include="binaryTree\getMinimumDifference.md" />
   </ItemGroup>
 </Project>
