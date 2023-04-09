@@ -126,5 +126,6 @@
     <None Include="binaryTree\searchBST.md" />
     <None Include="binaryTree\isValidBST.md" />
     <None Include="binaryTree\getMinimumDifference.md" />
+    <None Include="binaryTree\findMode.md" />
   </ItemGroup>
 </Project>

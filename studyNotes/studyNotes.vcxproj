@@ -171,6 +171,7 @@
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
     <None Include="binaryTree\countNodes.md" />
     <None Include="binaryTree\findBottomLeftValue.md" />
+    <None Include="binaryTree\findMode.md" />
     <None Include="binaryTree\getdepth.md" />
     <None Include="binaryTree\getHeight.md" />
     <None Include="binaryTree\getMinimumDifference.md" />
