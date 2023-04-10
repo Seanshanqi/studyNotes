@@ -181,6 +181,7 @@
     <None Include="binaryTree\isSymmetric.md" />
     <None Include="binaryTree\isValidBST.md" />
     <None Include="binaryTree\levelOrder.md" />
+    <None Include="binaryTree\lowestCommonAncestor.md" />
     <None Include="binaryTree\mergeTrees.md" />
     <None Include="binaryTree\pathsum.md" />
     <None Include="binaryTree\searchBST.md" />
