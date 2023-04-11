@@ -128,5 +128,6 @@
     <None Include="binaryTree\getMinimumDifference.md" />
     <None Include="binaryTree\findMode.md" />
     <None Include="binaryTree\lowestCommonAncestor.md" />
+    <None Include="binaryTree\insertIntoBST.md" />
   </ItemGroup>
 </Project>

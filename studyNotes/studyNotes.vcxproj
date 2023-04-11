@@ -176,6 +176,7 @@
     <None Include="binaryTree\getHeight.md" />
     <None Include="binaryTree\getMinimumDifference.md" />
     <None Include="binaryTree\hasPathSum.md" />
+    <None Include="binaryTree\insertIntoBST.md" />
     <None Include="binaryTree\invertTree.md" />
     <None Include="binaryTree\isBalanced.md" />
     <None Include="binaryTree\isSymmetric.md" />
