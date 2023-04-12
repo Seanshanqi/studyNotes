@@ -170,6 +170,7 @@
     <None Include="binaryTree\buildTree.md" />
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
     <None Include="binaryTree\countNodes.md" />
+    <None Include="binaryTree\deleteNode.md" />
     <None Include="binaryTree\findBottomLeftValue.md" />
     <None Include="binaryTree\findMode.md" />
     <None Include="binaryTree\getdepth.md" />
