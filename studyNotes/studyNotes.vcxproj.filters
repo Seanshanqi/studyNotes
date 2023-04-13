@@ -130,5 +130,6 @@
     <None Include="binaryTree\lowestCommonAncestor.md" />
     <None Include="binaryTree\insertIntoBST.md" />
     <None Include="binaryTree\deleteNode.md" />
+    <None Include="binaryTree\trimBST.md" />
   </ItemGroup>
 </Project>
