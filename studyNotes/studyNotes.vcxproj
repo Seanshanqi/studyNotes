@@ -187,6 +187,7 @@
     <None Include="binaryTree\mergeTrees.md" />
     <None Include="binaryTree\pathsum.md" />
     <None Include="binaryTree\searchBST.md" />
+    <None Include="binaryTree\sortedArrayToBST.md" />
     <None Include="binaryTree\sumOfLeftLeaves.md" />
     <None Include="binaryTree\Traversal.md" />
     <None Include="binaryTree\trimBST.md" />
