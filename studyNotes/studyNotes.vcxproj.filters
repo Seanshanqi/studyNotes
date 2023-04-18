@@ -133,5 +133,6 @@
     <None Include="binaryTree\trimBST.md" />
     <None Include="binaryTree\sortedArrayToBST.md" />
     <None Include="binaryTree\convertBST.md" />
+    <None Include="backtracking\combine.md" />
   </ItemGroup>
 </Project>
