@@ -167,6 +167,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="backtracking\combine.md" />
+    <None Include="backtracking\combineOptimized.md" />
     <None Include="binaryTree\binaryTreePaths.md" />
     <None Include="binaryTree\buildTree.md" />
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
