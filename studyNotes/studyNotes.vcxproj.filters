@@ -135,5 +135,6 @@
     <None Include="binaryTree\convertBST.md" />
     <None Include="backtracking\combine.md" />
     <None Include="backtracking\combineOptimized.md" />
+    <None Include="backtracking\combinationSum.md" />
   </ItemGroup>
 </Project>

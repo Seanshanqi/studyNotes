@@ -166,6 +166,7 @@
     <ClInclude Include="List.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="backtracking\combinationSum.md" />
     <None Include="backtracking\combine.md" />
     <None Include="backtracking\combineOptimized.md" />
     <None Include="binaryTree\binaryTreePaths.md" />
