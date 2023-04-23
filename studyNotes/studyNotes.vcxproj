@@ -170,6 +170,7 @@
     <None Include="backtracking\combinationSum2.md" />
     <None Include="backtracking\combine.md" />
     <None Include="backtracking\combineOptimized.md" />
+    <None Include="backtracking\letterCombinations.md" />
     <None Include="binaryTree\binaryTreePaths.md" />
     <None Include="binaryTree\buildTree.md" />
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
