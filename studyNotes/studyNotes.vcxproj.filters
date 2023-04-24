@@ -138,5 +138,6 @@
     <None Include="backtracking\combinationSum.md" />
     <None Include="backtracking\combinationSum2.md" />
     <None Include="backtracking\letterCombinations.md" />
+    <None Include="backtracking\partition.md" />
   </ItemGroup>
 </Project>
