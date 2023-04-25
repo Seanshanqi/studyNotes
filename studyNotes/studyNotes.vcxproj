@@ -172,6 +172,7 @@
     <None Include="backtracking\combineOptimized.md" />
     <None Include="backtracking\letterCombinations.md" />
     <None Include="backtracking\partition.md" />
+    <None Include="backtracking\restoreIpAddresses.md" />
     <None Include="binaryTree\binaryTreePaths.md" />
     <None Include="binaryTree\buildTree.md" />
     <None Include="binaryTree\constructMaximumBinaryTree.md" />
