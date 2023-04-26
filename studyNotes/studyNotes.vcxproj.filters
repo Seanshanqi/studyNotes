@@ -140,5 +140,6 @@
     <None Include="backtracking\letterCombinations.md" />
     <None Include="backtracking\partition.md" />
     <None Include="backtracking\restoreIpAddresses.md" />
+    <None Include="backtracking\subsets.md" />
   </ItemGroup>
 </Project>
