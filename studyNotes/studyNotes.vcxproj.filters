@@ -141,5 +141,6 @@
     <None Include="backtracking\partition.md" />
     <None Include="backtracking\restoreIpAddresses.md" />
     <None Include="backtracking\subsets.md" />
+    <None Include="backtracking\subsetsWithDup.md" />
   </ItemGroup>
 </Project>
