@@ -142,5 +142,6 @@
     <None Include="backtracking\restoreIpAddresses.md" />
     <None Include="backtracking\subsets.md" />
     <None Include="backtracking\subsetsWithDup.md" />
+    <None Include="backtracking\findSubsequences.md" />
   </ItemGroup>
 </Project>
