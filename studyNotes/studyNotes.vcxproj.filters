@@ -144,5 +144,6 @@
     <None Include="backtracking\subsetsWithDup.md" />
     <None Include="backtracking\findSubsequences.md" />
     <None Include="backtracking\permute.md" />
+    <None Include="backtracking\permuteUnique.md" />
   </ItemGroup>
 </Project>
