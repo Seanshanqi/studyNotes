@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="backtracking\findItinerary,md.cpp" />
     <ClCompile Include="binarySearch.cpp" />
     <ClCompile Include="binaryTree\buildRreewithPreandIn.md" />
     <ClCompile Include="detectCycle.cpp" />
