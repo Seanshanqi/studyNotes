@@ -150,5 +150,6 @@
     <None Include="backtracking\permuteUnique.md" />
     <None Include="backtracking\solveSudoku.md" />
     <None Include="GreedyAlgorithm\findContentChildren.md" />
+    <None Include="GreedyAlgorithm\wiggleMaxLength.md" />
   </ItemGroup>
 </Project>
