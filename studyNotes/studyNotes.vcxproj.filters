@@ -152,5 +152,6 @@
     <None Include="GreedyAlgorithm\findContentChildren.md" />
     <None Include="GreedyAlgorithm\wiggleMaxLength.md" />
     <None Include="GreedyAlgorithm\maxSubArray.md" />
+    <None Include="GreedyAlgorithm\maxProfit.md" />
   </ItemGroup>
 </Project>
