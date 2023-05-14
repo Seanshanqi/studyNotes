@@ -153,5 +153,6 @@
     <None Include="GreedyAlgorithm\wiggleMaxLength.md" />
     <None Include="GreedyAlgorithm\maxSubArray.md" />
     <None Include="GreedyAlgorithm\maxProfit.md" />
+    <None Include="GreedyAlgorithm\canJump.md" />
   </ItemGroup>
 </Project>
