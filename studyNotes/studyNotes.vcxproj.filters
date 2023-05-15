@@ -154,5 +154,6 @@
     <None Include="GreedyAlgorithm\maxSubArray.md" />
     <None Include="GreedyAlgorithm\maxProfit.md" />
     <None Include="GreedyAlgorithm\canJump.md" />
+    <None Include="GreedyAlgorithm\jump.md" />
   </ItemGroup>
 </Project>

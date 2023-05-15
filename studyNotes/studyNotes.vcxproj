@@ -208,6 +208,7 @@
     <None Include="binaryTree\trimBST.md" />
     <None Include="GreedyAlgorithm\canJump.md" />
     <None Include="GreedyAlgorithm\findContentChildren.md" />
+    <None Include="GreedyAlgorithm\jump.md" />
     <None Include="GreedyAlgorithm\maxProfit.md" />
     <None Include="GreedyAlgorithm\maxSubArray.md" />
     <None Include="GreedyAlgorithm\wiggleMaxLength.md" />
