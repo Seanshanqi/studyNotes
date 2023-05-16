@@ -155,5 +155,6 @@
     <None Include="GreedyAlgorithm\maxProfit.md" />
     <None Include="GreedyAlgorithm\canJump.md" />
     <None Include="GreedyAlgorithm\jump.md" />
+    <None Include="GreedyAlgorithm\largestSumAfterKNegations.md" />
   </ItemGroup>
 </Project>
