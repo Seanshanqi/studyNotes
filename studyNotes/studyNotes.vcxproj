@@ -212,6 +212,7 @@
     <None Include="GreedyAlgorithm\findContentChildren.md" />
     <None Include="GreedyAlgorithm\jump.md" />
     <None Include="GreedyAlgorithm\largestSumAfterKNegations.md" />
+    <None Include="GreedyAlgorithm\lemonadeChange.md" />
     <None Include="GreedyAlgorithm\maxProfit.md" />
     <None Include="GreedyAlgorithm\maxSubArray.md" />
     <None Include="GreedyAlgorithm\wiggleMaxLength.md" />

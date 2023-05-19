@@ -158,5 +158,6 @@
     <None Include="GreedyAlgorithm\largestSumAfterKNegations.md" />
     <None Include="GreedyAlgorithm\canCompleteCircuit.md" />
     <None Include="GreedyAlgorithm\candy.md" />
+    <None Include="GreedyAlgorithm\lemonadeChange.md" />
   </ItemGroup>
 </Project>
