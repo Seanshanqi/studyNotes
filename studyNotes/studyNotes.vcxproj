@@ -210,6 +210,7 @@
     <None Include="GreedyAlgorithm\candy.md" />
     <None Include="GreedyAlgorithm\canJump.md" />
     <None Include="GreedyAlgorithm\findContentChildren.md" />
+    <None Include="GreedyAlgorithm\findMinArrowShots.md" />
     <None Include="GreedyAlgorithm\jump.md" />
     <None Include="GreedyAlgorithm\largestSumAfterKNegations.md" />
     <None Include="GreedyAlgorithm\lemonadeChange.md" />

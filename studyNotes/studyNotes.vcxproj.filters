@@ -160,5 +160,6 @@
     <None Include="GreedyAlgorithm\candy.md" />
     <None Include="GreedyAlgorithm\lemonadeChange.md" />
     <None Include="GreedyAlgorithm\reconstructQueue.md" />
+    <None Include="GreedyAlgorithm\findMinArrowShots.md" />
   </ItemGroup>
 </Project>
