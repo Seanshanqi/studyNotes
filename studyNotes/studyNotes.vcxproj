@@ -209,6 +209,7 @@
     <None Include="GreedyAlgorithm\canCompleteCircuit.md" />
     <None Include="GreedyAlgorithm\candy.md" />
     <None Include="GreedyAlgorithm\canJump.md" />
+    <None Include="GreedyAlgorithm\eraseOverlapIntervals.md" />
     <None Include="GreedyAlgorithm\findContentChildren.md" />
     <None Include="GreedyAlgorithm\findMinArrowShots.md" />
     <None Include="GreedyAlgorithm\jump.md" />

@@ -161,5 +161,6 @@
     <None Include="GreedyAlgorithm\lemonadeChange.md" />
     <None Include="GreedyAlgorithm\reconstructQueue.md" />
     <None Include="GreedyAlgorithm\findMinArrowShots.md" />
+    <None Include="GreedyAlgorithm\eraseOverlapIntervals.md" />
   </ItemGroup>
 </Project>
