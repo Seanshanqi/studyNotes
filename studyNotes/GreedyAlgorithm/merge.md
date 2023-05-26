@@ -1,0 +1,52 @@
+# [合并区间](https://leetcode.cn/problems/merge-intervals/)
+以数组 intervals 表示若干个区间的集合，其中单个区间为 intervals[i] = [starti, endi] 。请你合并所有重叠的区间，并返回 一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间 。
+
+ 
+
+示例 1：  
+
+输入：intervals = [[1,3],[2,6],[8,10],[15,18]]  
+输出：[[1,6],[8,10],[15,18]]  
+解释：区间 [1,3] 和 [2,6] 重叠, 将它们合并为 [1,6].  
+思路
+本题的本质其实还是判断重叠区间问题。
+
+发现和452. 用最少数量的箭引爆气球 (opens new window)和 435. 无重叠区间 (opens new window)都是一个套路。
+
+这几道题都是判断区间重叠，区别就是判断区间重叠后的逻辑，本题是判断区间重贴后要进行区间合并。
+
+所以一样的套路，先排序，让所有的相邻区间尽可能的重叠在一起，按左边界，或者右边界排序都可以，处理逻辑稍有不同。
+
+按照左边界从小到大排序之后，如果 intervals[i][0] <= intervals[i - 1][1] 即intervals[i]的左边界 <= intervals[i - 1]的右边界，则一定有重叠。（本题相邻区间也算重贴，所以是<=）
+
+知道如何判断重复之后，剩下的就是合并了，如何去模拟合并区间呢？
+
+其实就是用合并区间后左边界和右边界，作为一个新的区间，加入到result数组里就可以了。如果没有合并就把原区间加入到result数组。
+
+C++代码如下：
+~~~c
+class Solution {
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        vector<vector<int>> result;
+        if (intervals.size() == 0) return result; // 区间集合为空直接返回
+        // 排序的参数使用了lambda表达式
+        sort(intervals.begin(), intervals.end(), [](const vector<int>& a, const vector<int>& b){return a[0] < b[0];});
+
+        // 第一个区间就可以放进结果集里，后面如果重叠，在result上直接合并
+        result.push_back(intervals[0]); 
+
+        for (int i = 1; i < intervals.size(); i++) {
+            if (result.back()[1] >= intervals[i][0]) { // 发现重叠区间
+                // 合并区间，只更新右边界就好，因为result.back()的左边界一定是最小值，因为我们按照左边界排序的
+                result.back()[1] = max(result.back()[1], intervals[i][1]); 
+            } else {
+                result.push_back(intervals[i]); // 区间不重叠 
+            }
+        }
+        return result;
+    }
+};
+~~~
+时间复杂度: O(nlogn)
+空间复杂度: O(logn)，排序需要的空间开销

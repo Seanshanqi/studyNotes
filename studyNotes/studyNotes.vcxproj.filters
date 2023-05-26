@@ -163,5 +163,6 @@
     <None Include="GreedyAlgorithm\findMinArrowShots.md" />
     <None Include="GreedyAlgorithm\eraseOverlapIntervals.md" />
     <None Include="GreedyAlgorithm\partitionLabels.md" />
+    <None Include="GreedyAlgorithm\merge.md" />
   </ItemGroup>
 </Project>

@@ -217,6 +217,7 @@
     <None Include="GreedyAlgorithm\lemonadeChange.md" />
     <None Include="GreedyAlgorithm\maxProfit.md" />
     <None Include="GreedyAlgorithm\maxSubArray.md" />
+    <None Include="GreedyAlgorithm\merge.md" />
     <None Include="GreedyAlgorithm\partitionLabels.md" />
     <None Include="GreedyAlgorithm\reconstructQueue.md" />
     <None Include="GreedyAlgorithm\wiggleMaxLength.md" />
