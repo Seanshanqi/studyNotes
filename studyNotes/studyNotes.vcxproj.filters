@@ -164,5 +164,6 @@
     <None Include="GreedyAlgorithm\eraseOverlapIntervals.md" />
     <None Include="GreedyAlgorithm\partitionLabels.md" />
     <None Include="GreedyAlgorithm\merge.md" />
+    <None Include="GreedyAlgorithm\monotoneIncreasingDigits.md" />
   </ItemGroup>
 </Project>
