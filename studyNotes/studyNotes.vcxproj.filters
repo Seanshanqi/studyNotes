@@ -165,5 +165,6 @@
     <None Include="GreedyAlgorithm\partitionLabels.md" />
     <None Include="GreedyAlgorithm\merge.md" />
     <None Include="GreedyAlgorithm\monotoneIncreasingDigits.md" />
+    <None Include="GreedyAlgorithm\minCameraCover.md" />
   </ItemGroup>
 </Project>
