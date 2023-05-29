@@ -206,6 +206,7 @@
     <None Include="binaryTree\sumOfLeftLeaves.md" />
     <None Include="binaryTree\Traversal.md" />
     <None Include="binaryTree\trimBST.md" />
+    <None Include="Dynamic_Programming\fib.md" />
     <None Include="GreedyAlgorithm\canCompleteCircuit.md" />
     <None Include="GreedyAlgorithm\candy.md" />
     <None Include="GreedyAlgorithm\canJump.md" />

@@ -166,5 +166,6 @@
     <None Include="GreedyAlgorithm\merge.md" />
     <None Include="GreedyAlgorithm\monotoneIncreasingDigits.md" />
     <None Include="GreedyAlgorithm\minCameraCover.md" />
+    <None Include="Dynamic_Programming\fib.md" />
   </ItemGroup>
 </Project>
