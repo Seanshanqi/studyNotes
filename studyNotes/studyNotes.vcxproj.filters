@@ -167,5 +167,6 @@
     <None Include="GreedyAlgorithm\monotoneIncreasingDigits.md" />
     <None Include="GreedyAlgorithm\minCameraCover.md" />
     <None Include="Dynamic_Programming\fib.md" />
+    <None Include="Dynamic_Programming\climbStairs.md" />
   </ItemGroup>
 </Project>
