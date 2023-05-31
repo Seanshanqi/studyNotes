@@ -168,5 +168,6 @@
     <None Include="GreedyAlgorithm\minCameraCover.md" />
     <None Include="Dynamic_Programming\fib.md" />
     <None Include="Dynamic_Programming\climbStairs.md" />
+    <None Include="Dynamic_Programming\minCostClimbingStairs.md" />
   </ItemGroup>
 </Project>
