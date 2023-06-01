@@ -169,5 +169,6 @@
     <None Include="Dynamic_Programming\fib.md" />
     <None Include="Dynamic_Programming\climbStairs.md" />
     <None Include="Dynamic_Programming\minCostClimbingStairs.md" />
+    <None Include="Dynamic_Programming\uniquePaths.md" />
   </ItemGroup>
 </Project>
