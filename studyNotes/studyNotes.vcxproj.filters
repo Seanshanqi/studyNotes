@@ -171,5 +171,6 @@
     <None Include="Dynamic_Programming\minCostClimbingStairs.md" />
     <None Include="Dynamic_Programming\uniquePaths.md" />
     <None Include="Dynamic_Programming\uniquePathsWithObstacles.md" />
+    <None Include="Dynamic_Programming\integerBreak.md" />
   </ItemGroup>
 </Project>
