@@ -172,5 +172,6 @@
     <None Include="Dynamic_Programming\uniquePaths.md" />
     <None Include="Dynamic_Programming\uniquePathsWithObstacles.md" />
     <None Include="Dynamic_Programming\integerBreak.md" />
+    <None Include="Dynamic_Programming\numTrees.md" />
   </ItemGroup>
 </Project>
