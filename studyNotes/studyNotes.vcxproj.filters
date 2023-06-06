@@ -173,5 +173,6 @@
     <None Include="Dynamic_Programming\uniquePathsWithObstacles.md" />
     <None Include="Dynamic_Programming\integerBreak.md" />
     <None Include="Dynamic_Programming\numTrees.md" />
+    <None Include="Dynamic_Programming\canPartition.md" />
   </ItemGroup>
 </Project>
