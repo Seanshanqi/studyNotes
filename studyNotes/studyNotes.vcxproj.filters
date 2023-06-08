@@ -174,5 +174,6 @@
     <None Include="Dynamic_Programming\integerBreak.md" />
     <None Include="Dynamic_Programming\numTrees.md" />
     <None Include="Dynamic_Programming\canPartition.md" />
+    <None Include="Dynamic_Programming\lastStoneWeightII.md" />
   </ItemGroup>
 </Project>
