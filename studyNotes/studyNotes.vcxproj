@@ -207,6 +207,7 @@
     <None Include="binaryTree\Traversal.md" />
     <None Include="binaryTree\trimBST.md" />
     <None Include="Dynamic_Programming\canPartition.md" />
+    <None Include="Dynamic_Programming\change.md" />
     <None Include="Dynamic_Programming\climbStairs.md" />
     <None Include="Dynamic_Programming\fib.md" />
     <None Include="Dynamic_Programming\findMaxForm.md" />

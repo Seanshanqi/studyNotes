@@ -177,5 +177,6 @@
     <None Include="Dynamic_Programming\lastStoneWeightII.md" />
     <None Include="Dynamic_Programming\findTargetSumWays.md" />
     <None Include="Dynamic_Programming\findMaxForm.md" />
+    <None Include="Dynamic_Programming\change.md" />
   </ItemGroup>
 </Project>
