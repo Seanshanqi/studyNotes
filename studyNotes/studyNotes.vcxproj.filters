@@ -178,5 +178,6 @@
     <None Include="Dynamic_Programming\findTargetSumWays.md" />
     <None Include="Dynamic_Programming\findMaxForm.md" />
     <None Include="Dynamic_Programming\change.md" />
+    <None Include="Dynamic_Programming\combinationSum4.md" />
   </ItemGroup>
 </Project>

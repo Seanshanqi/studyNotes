@@ -209,6 +209,7 @@
     <None Include="Dynamic_Programming\canPartition.md" />
     <None Include="Dynamic_Programming\change.md" />
     <None Include="Dynamic_Programming\climbStairs.md" />
+    <None Include="Dynamic_Programming\combinationSum4.md" />
     <None Include="Dynamic_Programming\fib.md" />
     <None Include="Dynamic_Programming\findMaxForm.md" />
     <None Include="Dynamic_Programming\findTargetSumWays.md" />
