@@ -179,5 +179,6 @@
     <None Include="Dynamic_Programming\findMaxForm.md" />
     <None Include="Dynamic_Programming\change.md" />
     <None Include="Dynamic_Programming\combinationSum4.md" />
+    <None Include="Dynamic_Programming\climbStairs2.md" />
   </ItemGroup>
 </Project>
