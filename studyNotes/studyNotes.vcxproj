@@ -210,6 +210,7 @@
     <None Include="Dynamic_Programming\change.md" />
     <None Include="Dynamic_Programming\climbStairs.md" />
     <None Include="Dynamic_Programming\climbStairs2.md" />
+    <None Include="Dynamic_Programming\coinChange.md" />
     <None Include="Dynamic_Programming\combinationSum4.md" />
     <None Include="Dynamic_Programming\fib.md" />
     <None Include="Dynamic_Programming\findMaxForm.md" />
