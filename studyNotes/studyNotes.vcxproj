@@ -218,6 +218,7 @@
     <None Include="Dynamic_Programming\integerBreak.md" />
     <None Include="Dynamic_Programming\lastStoneWeightII.md" />
     <None Include="Dynamic_Programming\minCostClimbingStairs.md" />
+    <None Include="Dynamic_Programming\numSquares.md" />
     <None Include="Dynamic_Programming\numTrees.md" />
     <None Include="Dynamic_Programming\uniquePaths.md" />
     <None Include="Dynamic_Programming\uniquePathsWithObstacles.md" />

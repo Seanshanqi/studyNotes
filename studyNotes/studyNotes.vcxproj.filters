@@ -181,5 +181,6 @@
     <None Include="Dynamic_Programming\combinationSum4.md" />
     <None Include="Dynamic_Programming\climbStairs2.md" />
     <None Include="Dynamic_Programming\coinChange.md" />
+    <None Include="Dynamic_Programming\numSquares.md" />
   </ItemGroup>
 </Project>
